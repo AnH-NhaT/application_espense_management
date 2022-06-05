@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:text="dd-mm-yy"
+            android:id="@+id/filter_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00bcd4"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  name"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:id="@+id/txtNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  money"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#00BCD4"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnMenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/ic_baseline_arrow_drop_down_circle_24"/>
+</FrameLayout>

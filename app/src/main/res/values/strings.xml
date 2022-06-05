@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Money management</string>
+    <string-array name="filter_array_days">
+        <item>Month 01</item>
+        <item>Month 02</item>
+        <item>Month 03</item>
+        <item>Month 04</item>
+        <item>Month 05</item>
+        <item>Month 06</item>
+        <item>Month 07</item>
+        <item>Month 08</item>
+        <item>Month 09</item>
+        <item>Month 10</item>
+        <item>Month 11</item>
+        <item>Month 12</item>
+    </string-array>
+</resources>

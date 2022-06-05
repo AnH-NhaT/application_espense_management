@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_khoanthu"
+        android:icon="@drawable/ic_baseline_thumb_up_24"
+        android:title="Sell gasoline" />
+    <item
+        android:id="@+id/nav_khoanchi"
+        android:icon="@drawable/ic_baseline_thumb_down_24"
+        android:title="Buy gasoline" />
+    <item
+        android:id="@+id/nav_thongke"
+        android:icon="@drawable/ic_baseline_thumbs_up_down_24"
+        android:title="Income" />
+</menu>

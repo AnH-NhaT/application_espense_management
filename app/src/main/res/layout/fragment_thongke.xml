@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tongket"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:textColor="#121212"
+            android:text="Full all"
+            android:layout_marginLeft="43dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:id="@+id/spinner_months"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_years"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#00bcd4"/>
+
+
+
+    <TextView
+        android:textColor="@android:color/transparent"
+        android:id="@+id/ngay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Sell gasoline:"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#00bcd4"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:text="0"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:id="@+id/khoangthu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Buy gasoline:"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#00bcd4"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:id="@+id/khoangchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Income:"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#00bcd4"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:text="0"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:id="@+id/candoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
